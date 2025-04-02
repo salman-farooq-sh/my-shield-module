@@ -8,7 +8,14 @@
 
 		default_layer {
 			bindings = <
-				&kp A           &bt BT_CLR
+				&kp SPACE       &mo 1
+				&kp N0          &kp N1
+			>;
+		};
+
+		xyz {
+			bindings = <
+				&bt BT_CLR      &trans
 				&bt BT_SEL 0    &bt BT_SEL 1
 			>;
 		};
