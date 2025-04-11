@@ -19,7 +19,7 @@
 
 		fn_layer {
 			bindings = <
-				&bt BT_CLR        &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &none    &none         &none         &none     &none &none  &none  &none  &none &none
+				&bt BT_CLR        &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &none    &none         &none         &none     &none &none  &none  &none  &none &boot
 				&bt BT_CLR_ALL    &none        &none         &none         &none         &none             &none    &none         &none         &none     &none &none  &none  &trans &none
 				&none             &none        &none         &none         &none         &none             &kp F14  &kp LC(PG_UP) &kp LC(PG_DN) &none     &none &none  &none  &none  &none
 				&kp LC(LS(PG_UP)) &none        &none         &none         &none         &kp LC(LS(PG_DN)) &kp LEFT &kp DOWN      &kp UP        &kp RIGHT &none &none  &trans &none
